@@ -1,1 +1,1 @@
-shape().out()
+osc().out()
