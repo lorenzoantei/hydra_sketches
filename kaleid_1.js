@@ -1,0 +1,10 @@
+shape(5,0.9)
+  .mult(osc(3,0.5,1))
+  .modulateRepeat(osc(10), 3.0, 3.0, 0.5, 0.5)
+.scrollX( 5,.1)
+	.kaleid(5)
+	.hue(.8)
+	.kaleid(2)
+	.brightness(.1)
+  .out(o0)
+
