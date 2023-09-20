@@ -3,8 +3,7 @@ noise()
 .modulateKaleid(osc(5,.5,0), 50)
 .mult(solid(20,2,1))
 .out()
-
-
+render(o0)
 
 noise(10)
 .contrast(10)
